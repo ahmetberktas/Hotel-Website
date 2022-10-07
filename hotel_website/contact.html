@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta
+      name="description"
+      content="Nevşehir'in en sıra dışı oteline hoş geldiniz"
+    />
+    <meta name="keywords" content="hotel,avanos hotel,nevsehir hotel" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+      integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Hotel AVANOS | Hoşgeldiniz</title>
+  </head>
+  <body>
+    <header>
+      <nav id="navbar">
+        <div class="container">
+          <h1 class="logo"><a href="index.html">AVNS</a></h1>
+          <ul>
+            <li><a class="current" href="index.html">Ana Sayfa</a></li>
+            <li><a href="about.html">Hakkında</a></li>
+            <li><a href="contact.html">İletişim</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <section id="contact-form" class="py-3">
+      <div class="container">
+        <h1 class="l-heading"><span class="text-primary">Bize</span> Ulaşın</h1>
+        <p>Bizimle iletişime geçmek için, lütfen aşağıdaki formu doldurun</p>
+        <form action="process.php">
+          <div class="form-group">
+            <label for="name">İsim</label>
+            <input type="text" name="name" id="name" />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" />
+          </div>
+          <div class="form-group">
+            <label for="message">Mesaj</label>
+            <textarea name="message" id="message"></textarea>
+          </div>
+          <button type="submit" class="btn">Gönder</button>
+        </form>
+      </div>
+    </section>
+
+    <section id="contact-info" class="bg-dark">
+      <div class="container">
+        <div class="box">
+          <i class="fas fa-hotel fa-3x"></i>
+          <h3>Konum</h3>
+          <p>Avanos 50.Sokak</p>
+        </div>
+        <div class="box">
+          <i class="fas fa-phone fa-3x"></i>
+          <h3>Phone Number</h3>
+          <p>(384) 511-4584</p>
+        </div>
+        <div class="box">
+          <i class="fas fa-envelope fa-3x"></i>
+          <h3>Email Adresi</h3>
+          <p>avnsdestek@info.com</p>
+        </div>
+      </div>
+    </section>
+
+    <footer id="main-footer">
+      <p>Hotel AVNS &copy; 2021, Her Hakkı Saklıdır</p>
+    </footer>
+  </body>
+</html>
